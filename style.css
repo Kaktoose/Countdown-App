@@ -1,0 +1,58 @@
+
+@media (prefers-color-scheme: light) {
+     h1 h2{
+        color: #000000
+    }    
+    html{
+        background: white;
+    }
+    body {
+        background-color: #e8e8e8;
+        border: 1px solid white
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+     *{
+        color: #ffffff
+    }    
+    html{
+        background: #000000;
+    }
+    body {
+        background-color: #1b1b1b;
+        border: 1px solid white
+    }
+}
+
+
+
+.timer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.Title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+
+
+    
+}
+
+body{
+    margin: 30px 20px;
+}
+
+.section{
+    margin-bottom: 150px;
+}
+
+.subtitle{
+    display: flex;
+    justify-content: center;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 15px;
+}
